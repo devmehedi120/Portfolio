@@ -1,10 +1,12 @@
 <script setup>
+import HeroView from './HeroView.vue';
 
 </script>
 
 <template>
-  <main>
-    <h1 class="text-3xl font-bold underline">Home Area</h1>
+  <main class="container">
+    <HeroView></HeroView>
   </main>
 </template>
-<style scoped></style>
+<style scoped>
+</style>
